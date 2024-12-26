@@ -1,0 +1,12 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Publication"
+    url: /publication/
+  - title: "Misc"
+    url: /misc/
+  - title: "Photograph"
+    url: https://timmy11hu.myportfolio.com/
+  - title: "CV"
+    url: /assets/cv/CV_DongtingHu.pdf
