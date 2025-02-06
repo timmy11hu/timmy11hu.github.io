@@ -21,7 +21,16 @@ author_profile: true
     Project Page
   </button>
   </a>
-
+  <a href="https://newsroom.snap.com/ai-text-to-image-model-for-mobile-devices" target="_blank" style="text-decoration: none;">
+  <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
+    Article 1
+  </button>
+  </a>
+  <a href="https://techcrunch.com/2025/02/04/snap-unveils-ai-text-to-image-model-for-mobile-devices" target="_blank" style="text-decoration: none;">
+  <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
+    Article 2
+  </button>
+  </a>
 
 - **In-N-Out: Lifting 2D Diffusion Prior for 3D Object Removal via Tuning-Free Latents Alignment**  
   Authors: **D. Hu**, H. Fu, J. Guo, L. Peng, T. Chu, F. Liu, T. Liu, M. Gong  
