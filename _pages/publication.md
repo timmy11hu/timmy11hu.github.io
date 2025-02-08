@@ -47,9 +47,9 @@ author_profile: true
   </a>
 
 ### 2023
-- **Multiscale representation for real-time anti-aliasing neural rendering**  
+- **Multiscale Representation for Real-Time Anti-Aliasing Neural Rendering**  
   Authors: **D. Hu**, Z. Zhang, T. Hou, T. Liu, H. Fu, M. Gong  
-  *ICCV 2023*  
+  *ICCV, 2023*  
   <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_Multiscale_Representation_for_Real-Time_Anti-Aliasing_Neural_Rendering_ICCV_2023_paper.pdf" target="_blank" style="text-decoration: none;">
   <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
     Paper
@@ -62,9 +62,9 @@ author_profile: true
   </a>
 
 ### 2022
-- **Uncertainty quantification in depth estimation via constrained ordinal regression**  
+- **Uncertainty Quantification in Depth Estimation via Constrained Ordinal Regression**  
   Authors: **D. Hu**, L. Peng, T. Chu, X. Zhang, Y. Mao, H. Bondell, M. Gong  
-  *ECCV 2022*  
+  *ECCV, 2022*  
   <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620229.pdf" target="_blank" style="text-decoration: none;">
   <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
     Paper
