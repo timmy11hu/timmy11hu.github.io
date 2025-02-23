@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Dongting Hu"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "An AI researcher and a photographer, an explorer and a traveller."
+  bio              : "An AI researcher and a photographer. <br> An explorer and a traveller."
   location         : "Melbourne, Australia"
   email            : "timmy11hu@gmail.com"
   links:
