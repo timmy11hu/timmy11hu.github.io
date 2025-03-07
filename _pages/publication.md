@@ -10,7 +10,7 @@ author_profile: true
 ### 2024
 - **SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices with Efficient Architectures and Training**  
   Authors: **D. Hu**\*, J. Chen\*, X. Huang\*, H. Coskun, A. Sahni, A. Gupta, A. Goyal, D. Lahiri, R. Singh, Y. Idelbayev, J. Cao, Y. Li, K.-T. Cheng, S.-H. Chan, M. Gong, S. Tulyakov, A. Kag, Y. Xu, J. Ren  
-  *Preprint, 2024*  
+  *CVPR, 2025*  
   <a href="https://arxiv.org/pdf/2412.09619" target="_blank" style="text-decoration: none;">
   <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
     Paper
