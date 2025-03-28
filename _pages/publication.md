@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- ## Publications -->
 
-### 2024
+### 2025
 - **SnapGen: Taming High-Resolution Text-to-Image Models for Mobile Devices with Efficient Architectures and Training**  
   Authors: **D. Hu**\*, J. Chen\*, X. Huang\*, H. Coskun, A. Sahni, A. Gupta, A. Goyal, D. Lahiri, R. Singh, Y. Idelbayev, J. Cao, Y. Li, K.-T. Cheng, S.-H. Chan, M. Gong, S. Tulyakov, A. Kag, Y. Xu, J. Ren  
   *CVPR, 2025*  
@@ -32,6 +32,7 @@ author_profile: true
   </button>
   </a>
 
+### 2024
 - **In-N-Out: Lifting 2D Diffusion Prior for 3D Object Removal via Tuning-Free Latents Alignment**  
   Authors: **D. Hu**, H. Fu, J. Guo, L. Peng, T. Chu, F. Liu, T. Liu, M. Gong  
   *NeurIPS, 2024*  
