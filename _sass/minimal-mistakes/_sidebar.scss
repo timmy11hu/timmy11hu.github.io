@@ -136,6 +136,8 @@
   img {
     max-width:200px;
     border-radius: 50%;
+    opacity: 1;  /* Ensure it's fully opaque */
+    transition: none;  /* Remove any transition effects */
 
     @include breakpoint($large) {
       padding: 5px;
