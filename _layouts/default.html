@@ -11,10 +11,14 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+    <!-- {% include_cached masthead.html %} -->
+    <!-- Masthead (navigation bar) centered -->
+    <header style="width: 100%; max-width: 1200px; margin: 0 auto;">
+      {% include_cached masthead.html %}
+    </header>
 
     <!-- <div class="initial-content"> -->
-    <div class="initial-content" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+    <div class="initial-content" style="width: 100%; max-width: 1200px; margin: 0 auto; padding: 20px; box-sizing: border-box;">
       {{ content }}
       {% include after-content.html %}
     </div>
