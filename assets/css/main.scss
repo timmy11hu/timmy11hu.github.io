@@ -7,23 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-/* 让顶部导航栏左对齐 */
-.site-header {
-    display: flex;
-    justify-content: flex-start; /* 左对齐内容 */
-    align-items: center; /* 垂直居中对齐 */
-    width: 100%;
-    padding: 10px 20px; /* 调整顶部导航栏的内边距 */
-  }
-  
-  /* 如果有导航菜单，将菜单项左对齐 */
-  .site-navigation {
-    display: flex;
-    justify-content: flex-start; /* 左对齐菜单项 */
-    margin-left: 0;
-  }
-  
-  .site-navigation li {
-    margin-right: 20px; /* 菜单项之间的间距 */
-  }
