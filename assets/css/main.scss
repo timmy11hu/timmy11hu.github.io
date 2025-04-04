@@ -7,3 +7,68 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Ensure the site header and navigation bar are left-aligned */
+.site-header {
+    display: flex; /* Use flexbox to arrange elements horizontally */
+    justify-content: flex-start; /* Align items (logo and nav) to the left */
+    align-items: center; /* Vertically center the items */
+    width: 100%;
+    padding: 10px 20px; /* Adjust the header padding */
+  }
+  
+  /* Left-align the site title/logo */
+  .site-title {
+    margin-right: 30px; /* Space between logo and navigation */
+  }
+  
+  /* Left-align the navigation menu items */
+  .site-navigation {
+    display: flex; /* Arrange the navigation items in a row */
+    justify-content: flex-start; /* Ensure items align to the left */
+    margin-left: 0;
+  }
+  
+  .site-navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .site-navigation li {
+    margin-right: 20px; /* Space between menu items */
+  }
+  
+  .site-navigation a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    padding: 5px 10px; /* Adjust padding for clickable area */
+  }
+  
+  /* Optional: Hover effect on navigation items */
+  .site-navigation a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
+  /* Optional: Mobile responsiveness */
+  @media (max-width: 768px) {
+    .site-header {
+      flex-direction: column; /* Stack header items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .site-navigation {
+      width: 100%; /* Stretch the nav bar to full width */
+      justify-content: flex-start; /* Left-align the nav items */
+    }
+  
+    .site-navigation ul {
+      flex-direction: column; /* Stack menu items vertically on mobile */
+    }
+  
+    .site-navigation li {
+      margin-bottom: 10px; /* Add vertical space between menu items */
+    }
+  }
+  
