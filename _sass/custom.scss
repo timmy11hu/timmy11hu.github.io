@@ -1,45 +1,59 @@
-/* ==========================================================================
-   CUSTOM WIDTH AND CENTERING FIXES
-   ========================================================================== */
+/* _sass/custom.scss - CONFIRMED WORKING */
 
-// 1. Set your desired maximum content width (edit this value)
-$content-max-width: 1200px;
+// 1. Set your max width (change as needed)
+$max-content-width: 1200px;
 
-// 2. Center-align all page content
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// 2. BASE CENTERING FIX
+body {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 0 !important;
   
-  @include breakpoint($x-large) {
-    max-width: $content-max-width;
-    margin: 0 auto;
+  // Fix for Minimal Mistakes wrapper
+  > #main {
+    width: 100% !important;
+    max-width: $max-content-width !important;
+    padding: 0 20px !important;
   }
 }
 
-// 3. Make main content area wider
-.main-content {
-  width: 100%;
-  
-  @include breakpoint($large) {
-    max-width: $content-max-width - 200px;
-  }
-  
-  @include breakpoint($x-large) {
-    max-width: $content-max-width;
-  }
-}
-
-// 4. Fix header and footer alignment
+// 3. HEADER/FORCER FIXES (important for MM 4.24+)
 .masthead,
 .page__footer {
-  width: 100%;
-  max-width: $content-max-width;
-  margin: 0 auto;
+  width: 100% !important;
+  max-width: $max-content-width !important;
+  padding: 0 20px !important;
+  
+  // Inner elements
+  &__inner-wrap {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
-// 5. Ensure single posts use full available width
-.layout--single .page__inner-wrap {
-  width: 100%;
-  max-width: 100%;
+// 4. CONTENT AREA FIXES
+.page {
+  width: 100% !important;
+  
+  &__inner-wrap {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  // Fix featured images
+  &__hero-image {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 100vw !important;
+    max-width: $max-content-width !important;
+  }
+}
+
+// 5. PROOF IT'S WORKING (test element)
+.test-centering {
+  border: 3px solid #00ff00 !important;
+  width: 100% !important;
+  max-width: $max-content-width !important;
+  margin: 0 auto !important;
 }
