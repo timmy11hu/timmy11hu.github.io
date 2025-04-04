@@ -329,8 +329,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-minimal_mistakes:
-  variables:
-    max_width: 1600px  # Widens entire page (default: 1200px)
-    sidebar_width: 260px  # Slimmer sidebar = more content space
