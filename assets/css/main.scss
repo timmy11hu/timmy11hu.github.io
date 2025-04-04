@@ -8,16 +8,3 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/* For large screens (e.g., laptops and desktops) */
-@media (min-width: 1024px) {
-    .initial-content {
-      padding: 100px; /* Apply padding on larger screens */
-    }
-  }
-  
-  /* For small screens (e.g., mobile devices) */
-  @media (max-width: 768px) {
-    .initial-content {
-      padding: 0; /* Remove padding on smaller screens */
-    }
-  }
