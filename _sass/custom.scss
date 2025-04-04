@@ -1,0 +1,45 @@
+/* ==========================================================================
+   CUSTOM WIDTH AND CENTERING FIXES
+   ========================================================================== */
+
+// 1. Set your desired maximum content width (edit this value)
+$content-max-width: 1200px;
+
+// 2. Center-align all page content
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  @include breakpoint($x-large) {
+    max-width: $content-max-width;
+    margin: 0 auto;
+  }
+}
+
+// 3. Make main content area wider
+.main-content {
+  width: 100%;
+  
+  @include breakpoint($large) {
+    max-width: $content-max-width - 200px;
+  }
+  
+  @include breakpoint($x-large) {
+    max-width: $content-max-width;
+  }
+}
+
+// 4. Fix header and footer alignment
+.masthead,
+.page__footer {
+  width: 100%;
+  max-width: $content-max-width;
+  margin: 0 auto;
+}
+
+// 5. Ensure single posts use full available width
+.layout--single .page__inner-wrap {
+  width: 100%;
+  max-width: 100%;
+}
