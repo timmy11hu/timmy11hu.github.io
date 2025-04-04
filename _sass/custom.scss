@@ -1,59 +1,70 @@
-/* _sass/custom.scss - CONFIRMED WORKING */
+/* _sass/custom.scss - Fixed Navigation Width + Centered Layout */
 
-// 1. Set your max width (change as needed)
-$max-content-width: 1200px;
+// 1. Set your dimensions (customize these)
+$content-width: 1200px;    // Main content area width
+$sidebar-width: 300px;     // Sidebar width
+$nav-width: $content-width + $sidebar-width + 80px; // Navigation full width
 
-// 2. BASE CENTERING FIX
-body {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  padding: 0 !important;
+// 2. Fix compressed navigation
+.masthead {
+  width: 100% !important;
   
-  // Fix for Minimal Mistakes wrapper
-  > #main {
-    width: 100% !important;
-    max-width: $max-content-width !important;
+  &__inner-wrap {
+    max-width: $nav-width !important;
     padding: 0 20px !important;
+    margin: 0 auto !important;
   }
 }
 
-// 3. HEADER/FORCER FIXES (important for MM 4.24+)
-.masthead,
+// 3. Main content area with sidebar
+#main {
+  width: 100%;
+  max-width: $nav-width;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+
+// 4. Content column
+.main-content {
+  width: calc(100% - #{$sidebar-width} - 40px);
+  margin-left: auto;
+}
+
+// 5. Sidebar column
+.sidebar {
+  width: $sidebar-width;
+  padding-right: 40px;
+  
+  // Remove theme's floating behavior
+  &__right {
+    float: none !important;
+    position: static !important;
+  }
+}
+
+// 6. Footer adjustment
 .page__footer {
-  width: 100% !important;
-  max-width: $max-content-width !important;
-  padding: 0 20px !important;
+  width: 100%;
   
-  // Inner elements
   &__inner-wrap {
-    width: 100% !important;
-    max-width: 100% !important;
+    max-width: $nav-width;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 }
 
-// 4. CONTENT AREA FIXES
-.page {
-  width: 100% !important;
-  
-  &__inner-wrap {
-    max-width: 100% !important;
-    margin: 0 !important;
+// 7. Mobile responsiveness
+@include breakpoint($large) {
+  .masthead__inner-wrap {
+    padding: 0 15px !important;
   }
   
-  // Fix featured images
-  &__hero-image {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 100vw !important;
-    max-width: $max-content-width !important;
+  .sidebar {
+    display: none;
   }
-}
-
-// 5. PROOF IT'S WORKING (test element)
-.test-centering {
-  border: 3px solid #00ff00 !important;
-  width: 100% !important;
-  max-width: $max-content-width !important;
-  margin: 0 auto !important;
+  
+  .main-content {
+    width: 100%;
+  }
 }
