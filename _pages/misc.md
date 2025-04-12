@@ -21,5 +21,5 @@ author_profile: true
 
 ### Reviewer
 
-- **Conference**: ICCV, CVPR, ICLR, ECCV, BMVC, ECAI
+- **Conference**: NeurIPS, ICCV, CVPR, ICLR, ECCV, BMVC, ECAI
 - **Journal**: TIST, Neural Networks
