@@ -35,6 +35,25 @@ author_profile: true
   </div>
 </div>
 
+<div style="display: flex; align-items: center; width: 100%;">
+  <img src="../assets/images/publication_stochdiff.png" alt="In-N-Out Publication Image" style="width: 120px; height: auto; margin-right: 15px;"/>
+  <div>
+    <strong>Stochastic Diffusion: A Diffusion Based Model for Stochastic Time Series Forecasting</strong> <br> 
+    Authors: Y. Liu, S. Wijewickrema, <strong>D. Hu</strong>, C. Bester, S. O'Leary J. Bailey  <br>
+    <em>KDD, 2025</em> <br> 
+    <a href="https://arxiv.org/pdf/2406.02827" target="_blank" style="text-decoration: none;">
+      <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
+        Paper
+      </button>
+    </a>
+    <a href="" target="_blank" style="text-decoration: none;">
+      <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
+        Code
+      </button>
+    </a>
+  </div>
+</div>
+
 ### 2024
 <div style="display: flex; align-items: center; width: 100%;">
   <img src="../assets/images/publication_innout.png" alt="In-N-Out Publication Image" style="width: 120px; height: auto; margin-right: 15px;"/>
