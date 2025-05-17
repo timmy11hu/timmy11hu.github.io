@@ -35,6 +35,7 @@ author_profile: true
   </div>
 </div>
 
+###
 <div style="display: flex; align-items: center; width: 100%;">
   <img src="../assets/images/publication_stochdiff.png" alt="In-N-Out Publication Image" style="width: 120px; height: auto; margin-right: 15px;"/>
   <div>
