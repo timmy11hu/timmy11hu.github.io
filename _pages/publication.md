@@ -10,7 +10,7 @@ author_profile: true
   <img src="../assets/images/publication_snapgen++.png" alt="SnapGen++ Publication Image" style="width: 120px; height: auto; margin-right: 15px;"/>
   <div>
     <strong>SnapGen++: Unleashing Diffusion Transformers for Efficient High-Fidelity Image Generation on Edge Devices</strong> <br> 
-    Authors: <strong>D. Hu</strong>*, A. Gupta, M. Gabidolla, A. Sahni, H. Coskun, Y. Li, Y. Idelbayev, A. Mahmood, A Lebedev, D. Lahiri, A. Goyal, J. Hu, M. Gong, S. Tulyakov, A. Kag<br>  
+    Authors: <strong>D. Hu</strong>, A. Gupta, M. Gabidolla, A. Sahni, H. Coskun, Y. Li, Y. Idelbayev, A. Mahmood, A Lebedev, D. Lahiri, A. Goyal, J. Hu, M. Gong, S. Tulyakov, A. Kag<br>  
     <em>Preprint</em> <br> 
     <a href="https://arxiv.org/pdf/2601.08303" target="_blank" style="text-decoration: none;">
       <button style="padding: 5px 10px; font-size: 14px; cursor: pointer; background-color:rgb(90, 170, 250); color: white; border: none; border-radius: 5px;">
