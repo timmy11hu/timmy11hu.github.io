@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Dongting Hu, and I will be joining [Snap Research Creative Vision](https://research.snap.com/team/creative-vision.html) as a Research Scientist. I obtained my Ph.D. in Science in the [School of Mathematics and Statistics](https://ms.unimelb.edu.au/) at the [University of Melbourne](https://www.unimelb.edu.au/), advised by Prof. [Mingming Gong](https://mingming-gong.github.io/index.html), co-advised by Dr. [Liuhua Peng](https://sites.google.com/view/liuhua-peng/home) and Dr. [Tingjin Chu](https://blogs.unimelb.edu.au/tingjinchu/). I was a member of the [Machine Learning and Reasoning (MLR)](https://mingming-gong.github.io/group.html) Group.
+Hi! I am Dongting Hu, I obtained my Ph.D. in Science in the [School of Mathematics and Statistics](https://ms.unimelb.edu.au/) at the [University of Melbourne](https://www.unimelb.edu.au/), advised by Prof. [Mingming Gong](https://mingming-gong.github.io/index.html), co-advised by Dr. [Liuhua Peng](https://sites.google.com/view/liuhua-peng/home) and Dr. [Tingjin Chu](https://blogs.unimelb.edu.au/tingjinchu/). I was a member of the [Machine Learning and Reasoning (MLR)](https://mingming-gong.github.io/group.html) Group.
   
 I interned at [Snap Research Creative Vision](https://research.snap.com/team/creative-vision.html), working on efficient text-to-image generative models with 
   Dr. [Yanwu Xu](https://xuyanwu.github.io/), 
